@@ -49,8 +49,8 @@ rollout SpringHelperMotionBaker "Spring Helper Motion Baker" width:280 height:16
 		
 		BakeAnimationRange		=	animationRange
 		
-		FStart	=	BakeAnimationTimer.start	as	string
-		FEnd		=	BakeAnimationTimer.end		as	string
+		FStart	=	BakeAnimationRange.start	as	string
+		FEnd		=	BakeAnimationRange.end		as	string
 		
 		FrameStart.text				=	replace	FStart	FStart.count	1	""
 		Frameend.text				=	replace	FEnd		FEnd.count	1	""
