@@ -61,7 +61,7 @@ rollout SpringHelperMotionBaker "Spring Helper Motion Baker" width:280 height:16
 	
 	Fn	FreeTempVariable	=	
 	(
-		Free	BakeAnimationTimer	;		Free	O_SprOBJ		;	Free	B_SprOBJ	;
+		Free	BakeAnimationRange	;
 	)
 	
 --==================================================================================================================================
@@ -137,6 +137,7 @@ rollout SpringHelperMotionBaker "Spring Helper Motion Baker" width:280 height:16
 	Fn	CHK_FrameValue	=
 	(
 		Local	CustSTF	,	CustEDF
+		
 		if	CHK_CustFrame.checked		==	true	then
 		(
 			CustSTF	=	FrameStart.text	as	integer
