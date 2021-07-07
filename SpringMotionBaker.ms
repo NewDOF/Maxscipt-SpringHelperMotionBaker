@@ -20,7 +20,7 @@ rollout SpringHelperMotionBaker "Spring Helper Motion Baker" width:280 height:16
 --			Setting			and			Variable
 --==================================================================================================================================
 	
-	global		BakeAnimationRange		,	TempV01	,	TempV02
+	global		BakeAnimationRange		
 	
 --==================================================================================================================================
 --			Initialize			Function
