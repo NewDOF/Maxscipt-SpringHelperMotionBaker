@@ -1,4 +1,4 @@
-# Maxscipt-SpringMotionBaker
+# Maxscipt-SpringHelperMotionBaker
 
 スプリングコントローラがあるの"Point"を選んで、
 
